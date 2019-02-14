@@ -12,7 +12,7 @@ rocess.env.PASS_SALT: string # generated salt. This can be ignore for automatica
 ### hash pass
 ```js
 import { hashPass, comparePassword } from 'bcrypt-hashpass';
-const hased = hashPass('mysecurepass');
+const hashed = hashPass('mysecurepass');
 ```
 
 ### compare password
